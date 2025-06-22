@@ -1,0 +1,63 @@
+{
+  "baseUrl": "https://hmarkets.com/",
+  "LiveAccCreationFormData": {
+    "FirstName": "Dhruv",
+    "LastName": "Chopra",
+    "CountryValue": "GB",
+    "PhoneNumber": "07400123456",
+    "Password": "Hello@123"
+  },
+
+  "LiveAccCreationFormDataValidations": {
+    "FirstNameValidation": "First name is required",
+    "LastNameValidation": "Last name is required",
+    "EmailValidation": "Email is required",
+    "CountryValidation": "Country is required",
+    "PhoneNumberValidation": "Invalid phone number",
+    "PasswordValidation": "Between 8 and 20 characters long"
+  },
+
+  "DemoCreationFormData": {
+    "SelectLeverage": "1:200",
+    "DemoAccSize": "5000",
+    "FirstName": "Dhruv",
+    "LastName": "Chopra",
+    "CountryValue": "GB",
+    "PhoneNum": "07400123456",
+    "SuccessMessageDemoAcc": "Your submission was successful."
+  },
+
+  "DemoAccCreationFormDataValidations": {
+    "LeverageValidation": "Leverage is required",
+    "AccSizeValidation": "Account size is required",
+    "FirstNameValidation": "First name is required",
+    "LastNameValidation": "Last name is required",
+    "EmailValidation": "Email is required",
+    "CountryValidation": "Country is required",
+    "PhoneNumberValidation": "Invalid phone number"
+  },
+
+  "ContactUsFormData": {
+    "ContactUsPageHeader": "Contact us",
+    "FirstName": "Dhruv",
+    "LastName": "Chopra",
+    "CountryValue": "GB",
+    "PhoneNum": "07400123456",
+    "Subject": "Payments",
+    "Message": "Hello This is Dhruv, the QA Specialist, Greetings!",
+    "SuccessMessageContactUsForm": "Your submission was successful."
+  },
+
+  "ContactUsFormDataValidations": {
+    "FirstNameValidation": "First name is required",
+    "LastNameValidation": "Last name is required",
+    "EmailValidation": "Email is required",
+    "CountryValidation": "Country is required",
+    "PhoneNumberValidation": "Invalid phone number",
+    "SubjectValidation": "Subject is required"
+  },
+
+  "LiveAccCreationExpectedTexts": {
+    "PersonalDetailsSectionText": "Personal details"
+  }
+}
