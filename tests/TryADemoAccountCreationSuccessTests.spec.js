@@ -1,4 +1,3 @@
-// IMPORTS AT THE VERY TOP, ONLY ONCE!
 const { Builder, By, until } = require("selenium-webdriver");
 const { expect } = require("chai");
 const HomePage = require("../pages/HomePage");

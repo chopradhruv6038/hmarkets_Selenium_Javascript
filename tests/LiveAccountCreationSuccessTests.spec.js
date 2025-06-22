@@ -50,9 +50,10 @@ describe("Live Account_success_submission", function () {
       testData.LiveAccCreationFormData.Password
     );
     await openLiveAccRegistrationFormPage.clickMarketingCheckBoxLivAcc();
+    await driver.sleep(2000);
     await openLiveAccRegistrationFormPage.clickStartYourApplicationBtn();
 
-    await driver.sleep(10000);
+    await driver.sleep(8000);
 
     // Validate "Personal details" section is displayed
 
