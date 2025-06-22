@@ -86,12 +86,7 @@ npx mocha tests/UserContactUsFormSuccessSubmissionTests.spec.js
 From Command Line
 npx mocha tests/
 
-✅ Test Coverage Summary:
-
-Feature           | Positive Test | Negative Validation
-Live Account Form | ✅            | ✅
-Demo Account Form | ✅            | ✅
-Contact Us Form   | ✅            | ✅
+![Alt text](image.png)
 
 📚 Best Practices Followed
 
