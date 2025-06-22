@@ -1,10 +1,13 @@
-HMarkets.com Selenium Automation Suite (JavaScript/Node.js)
+HMarkets.com Selenium Automation Suite (Selemium-JavaScript)
+
 This project is a robust UI test automation framework for validating the core functionalities of HMarkets.com. It focuses on form submission scenarios, ensuring both successful and negative test flows across key user-facing forms.
 
 GitHub Repo:
+
 https://github.com/chopradhruv6038/hmarkets_Selenium_Javascript
 
 📌 Overview
+
 This suite automates end-to-end testing for:
 
 ✅ Live Account Opening Form
@@ -16,6 +19,7 @@ This suite automates end-to-end testing for:
 Both successful form submissions and field-level validation errors are thoroughly tested to ensure optimal user experience and system reliability.
 
 💡 Key Features
+
 🔄 Comprehensive Form Testing — Validates both positive and negative test flows.
 
 🧱 Modular Architecture — Built using Object-Oriented Design and Page Object Model.
@@ -29,6 +33,7 @@ Both successful form submissions and field-level validation errors are thoroughl
 🧪 Mocha + Chai — Modern, BDD-style JavaScript testing.
 
 🛠️ Tech Stack
+
 Component Description
 Language JavaScript (Node.js)
 Framework Selenium WebDriver + Mocha + Chai
@@ -41,6 +46,7 @@ Version Control Git + GitHub
 
 🚀 Getting Started
 🔧 Prerequisites
+
 Ensure the following tools are installed on your machine:
 
 Node.js (18+ recommended)
@@ -66,12 +72,12 @@ cd hmarkets_Selenium_Javascript
 }
 
 From VS Code
+
 Open the project folder in VS Code.
 
 Open the integrated terminal.
 
 Run tests using:
-
 npx mocha tests/\*.spec.js
 
 Or run an individual test file:
@@ -81,10 +87,11 @@ From Command Line
 npx mocha tests/
 
 ✅ Test Coverage Summary
-Feature Positive Test Negative Validation
-Live Account Form ✅ ✅
-Demo Account Form ✅ ✅
-Contact Us Form ✅ ✅
+
+Feature             Positive Test Negative Validation
+Live Account Form    ✅               ✅
+Demo Account Form    ✅               ✅
+Contact Us Form      ✅               ✅
 
 📚 Best Practices Followed
 
@@ -114,6 +121,7 @@ For fully automated runs, disable or mock reCAPTCHA in your test/staging environ
 The relevant code is commented in the test suite with instructions and a wait, to allow for manual completion if CAPTCHA is present.
 
 👤 Author
+
 Dhruv Chopra
 Senior QA Engineer | Dubai
 https://www.linkedin.com/in/dhruv-chopra-dxb/
